@@ -7,9 +7,9 @@ const res = document.getElementById("result");
 const toast = document.getElementById("toast");
 
 function calculate(value) {
-  const calculatedValue = eval(value || null);
+  const calculatedValue = eval(value || null); 
   if (isNaN(calculatedValue)) {
-    res.value = "Can't divide 0 with 0";
+    res.value = "Can't divide 0 with 0 ";
     setTimeout(() => {
       res.value = "";
     }, 1300);
